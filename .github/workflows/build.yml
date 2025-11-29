@@ -20,8 +20,10 @@ jobs:
           kernel-branch: main-ksu-next
           config: lavender-full_defconfig
           arch: arm64
-          aosp-clang: true
-          aosp-gcc: true
+          aosp-clang: false
+          aosp-gcc: false
+          other-clang-url: https://github.com/kdrag0n/proton-clang
+          other-clang-branch: master
           android-version: 12
           disable-lto: true
           anykernel3: true
