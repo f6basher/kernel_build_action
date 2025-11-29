@@ -22,8 +22,8 @@ jobs:
           arch: arm64
           aosp-clang: false
           aosp-gcc: true
-          other-clang-url: https://github.com/kdrag0n/proton-clang
-          other-clang-branch: master
+          other-clang-url: https://github.com/ZyCromerZ/Clang
+          other-clang-branch: 19
           android-version: 12
           disable-lto: true
           anykernel3: true
