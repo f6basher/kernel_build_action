@@ -16,8 +16,8 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/germaniumsculk/android_kernel_xiaomi_southwest-4.19
-          kernel-dir: kernel/xiaomi/lavender
-          kernel-branch: main-ksu-fix
+          kernel-dir: xiaomi/lavender
+          kernel-branch: main-ksu-next
           config: lavender_defconfig vendor/sdm660_defconfig
           arch: arm64
           aosp-clang: true
