@@ -19,7 +19,7 @@ jobs:
           kernel-url: https://github.com/germaniumsculk/android_kernel_xiaomi_sdm660_southwest-ng
           kernel-dir: xiaomi/sdm660
           kernel-branch: main-cip
-          config: sdm660_defconfig
+          config: vendor/xiaomi/sdm660_defconfig
           arch: arm64
           aosp-clang: false
           aosp-gcc: true
